@@ -8,9 +8,7 @@ curl -k https://xxcapp.xidian.edu.cn/xisuncov/wap/open-report/save -d "sfzx=1&tw
 #| xargs -i curl -k https://sc.ftqq.com/xxxx.send -d "text={}"
 #server酱post方法
 
-#| xargs -i curl -G https://sre24.com/api/v1/push \
-#        -d token=xxxx \
-#        --data-urlencode msg="{}"
+#| xargs -i curl -G https://sre24.com/api/v1/push -d token=xxxx --data-urlencode msg="{}"
 #sre24 post方法
 sleep 5.5h
 #有谁不喜欢睡一觉起来打个卡呢？
