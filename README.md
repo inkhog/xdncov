@@ -12,7 +12,7 @@ curl -k https://xxcapp.xidian.edu.cn/xisuncov/wap/open-report/save -d "sfzx=1&tw
 
 脚本使用方法：下载脚本，修改你的学号和密码，并选择你所在的校区并把另一校区行注释（默认为北校区）保存，放到一个24小时不关机还能联网的机子上，可以是路由器，可以是服务器，甚至是手机（后台杀死警告）。
 ```
-nohup sh ./ncov.sh &
+nohup sh ./ncov.sh '你的学号' '你的统一认证密码'&
 ```
 完事
 
