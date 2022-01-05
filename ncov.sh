@@ -15,7 +15,7 @@ curl -s -k https://xxcapp.xidian.edu.cn/xisuncov/wap/open-report/save -d "sfzx=1
 #server酱post方法
 #| xargs -i curl -k -G https://sre24.com/api/v1/push -d token=xxxx --data-urlencode msg="{}"
 #sre24 post方法
-echo
+echo -e "\n"
 let t=$RANDOM*21600/32767
 sleep $t
 #有谁不喜欢睡一觉起来打个卡呢？
